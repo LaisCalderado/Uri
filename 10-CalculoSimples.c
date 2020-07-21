@@ -21,7 +21,6 @@ int main(){
     Total = (qtdP1 * ValorP1) + (qtdP2*ValorP2);
 
     printf("VALOR A PAGAR: R$ %.2f\n", Total);
-
-
+    
     return 0;
 }
