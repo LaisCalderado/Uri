@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<math.h>
 
 /*
 A fórmula para calcular a área de uma circunferência 
@@ -24,13 +25,13 @@ você receberá "Presentation Error".
 
 int main(){
 
-    float R, A, pi = 3.14159;
+    double raio, area;
 
-    scanf("%f", &R);
+    scanf("%lf", &raio);
 
-    A = pi * (R * R);
+    area = 3.14159* (raio*raio);
 
-    printf("A=%0.4f\n", A);
+    printf("A=%0.4lf\n", area);
 
     return 0;
 }
